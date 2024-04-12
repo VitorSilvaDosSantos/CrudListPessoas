@@ -5,8 +5,8 @@ const app = express()
 app.use(express.json())
 
 // rotas
-const produtos = require('./routes/CrudListPessoas')
-app.use(produtos)
+const pessoas = require('./routes/CrudListPessoas')
+app.use(pessoas)
 
 
 app.listen(3000, () => {
